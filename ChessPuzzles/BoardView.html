@@ -3,13 +3,15 @@
 <head>
     <title></title>
     <script src="Scripts/angular.js"></script>
+    <script src="app/Board.js"></script>
     <script src="app/BoardController.js"></script>
+    <link href="app/BoardView.css" rel="stylesheet" />
 </head>
 <body ng-controller="BoardCtrl">
         <div ng-repeat="row in rows">
-        <div ng-repeat="col in row">
-            {{col}}
-        </div>
+            <div ng-repeat="col in row" class="cell">
+                {{col}}
+            </div>
         </div>
 </body>
 </html>
