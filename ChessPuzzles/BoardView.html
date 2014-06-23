@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="chessPuzzlesApp">
+<head>
+    <title></title>
+    <script src="Scripts/angular.js"></script>
+    <script src="app/BoardController.js"></script>
+</head>
+<body ng-controller="BoardCtrl">
+        <div ng-repeat="row in rows">
+        <div ng-repeat="col in row">
+            {{col}}
+        </div>
+        </div>
+</body>
+</html>
