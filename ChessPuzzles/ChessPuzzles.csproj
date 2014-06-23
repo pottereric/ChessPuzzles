@@ -388,6 +388,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="app\Board.ts" />
     <TypeScriptCompile Include="app\BoardController.ts" />
+    <TypeScriptCompile Include="app\KnightSolver.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-mocks.d.ts" />
