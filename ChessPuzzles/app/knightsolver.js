@@ -6,7 +6,7 @@ var ChessPuzzles;
             this.board = board;
             this.x = x;
             this.y = y;
-            board.rows[x][y] = "test3";
+            board.rows[x][y] = "1";
         }
         return KnightSolver;
     })();
